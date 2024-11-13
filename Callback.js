@@ -1,4 +1,6 @@
 // basic example of callback 
+// firstFunc is HOF
+// secondFunc is Callback function
 function firstFunc(name,callback){
     console.log("hello there")
     callback(name)
